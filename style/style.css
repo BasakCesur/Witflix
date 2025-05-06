@@ -1,0 +1,215 @@
+:root {
+    --white: #ece9e5;
+    --blue: #1e90ff;
+}
+
+html {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: var(--white);
+}
+
+header {
+    color: var(--white);
+    padding: 1 rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo {
+    width: 200px;
+}
+
+header img.user-picture {
+    border-radius: 50%;
+    height: 3rem;
+}
+
+header nav a {
+    color: var(--white);
+    font-weight: bold;
+    margin-right: .5rem;
+    transition: .25s;
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+}
+
+header nav a:hover {
+    color: #333;
+    color: var(--white);
+}
+
+header .user-panel {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+header .search-icon {
+    margin-left: -2rem;
+    width: 2rem;
+    color: #bebebe;
+}
+
+.notification-btn {
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.modern-input {
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    font-size: 1rem;
+    background-color: var(--white);
+
+}
+
+.content {
+    flex-grow: 1;
+    padding: 1 rem;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+footer>div {
+    padding: 1rem;
+}
+
+/* İlk div (navigasyon ve metin) */
+footer>div:first-child {
+    flex-grow: 1;
+}
+
+/* Sosyal medya bölümü */
+footer>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .brand-icon {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.brand-icon i {
+    font-size: 2.5rem;
+    color: #7b7b7b;
+    transition: 0.25s;
+}
+
+.brand-icon i:hover {
+    color: #fff;
+}
+
+/* Uygulama logoları bölümü */
+.store-container {
+   
+    /* Logoları yatay sıralar */
+    align-items: flex-start;
+    /* Üstten hizalar */
+    gap: 0.5rem;
+}
+
+.store-container>div {
+    /* Doğrudan div içindeki img'leri etkileyecek */
+    display: flex;
+    /* İçindeki img'leri yatay sıralar */
+    gap: 0.5rem;
+    /* Logolar arası boşluk */
+}
+
+.store-logo {
+    width: 120px;
+    height: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.footer-title {
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 0 0 0.5rem 0;
+}
+
+a.footer-title {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+a.footer-title:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-p {
+    margin-top: 1rem;
+}
+
+.video-slide {
+   position: relative;
+}
+
+.video-slide video{
+    width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    padding: 5rem 2rem;
+    background: rgba(0,0,0,0.5);
+    bottom: 0;
+}
+
+.text p{
+    width: 50%;
+}
+.comments{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.comments i {
+    color: rgb(255, 200, 0);
+}
+.age-restriction{
+    border: 1px solid antiquewhite;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    padding: .25rem .5rem;
+}
+.duration{
+    font-weight: bold;
+}
+.label{
+    color: #FF69B4;
+    font-weight: bold;
+}
+.watch-btn{
+    background-color: #FF69B4;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
