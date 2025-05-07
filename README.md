@@ -1,4 +1,5 @@
 🍿Witflix
+
 Witflix is a simple, responsive movie streaming platform UI clone, inspired by popular streaming services. It provides a clean layout with movie categories, a featured section, and a user panel.
 
 🚀 Features
